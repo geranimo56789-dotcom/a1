@@ -29,7 +29,7 @@ on:
 jobs:
   build-ios:
     name: Build iOS
-  runs-on: macos-15
+    runs-on: macos-15
     timeout-minutes: 60
     env:
       DOTNET_NOLOGO: true
