@@ -29,7 +29,7 @@ on:
 jobs:
   build-ios:
     name: Build iOS
-    runs-on: macos-14
+  runs-on: macos-15
     timeout-minutes: 60
     env:
       DOTNET_NOLOGO: true
@@ -47,6 +47,11 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
+
+      - name: Show Xcode version
+        run: |
+          xcodebuild -version
+          xcode-select -p
 
       - name: Install MAUI workload
         run: |
@@ -66,7 +71,10 @@ jobs:
 
       - name: Build iOS Simulator .app (unsigned)
         run: |
-          dotnet build "$PROJECT" -c "$CONFIG" -f net8.0-ios /p:RuntimeIdentifier=iossimulator-arm64
+          dotnet build "$PROJECT" -c "$CONFIG" -f net8.0-ios \
+            /p:RuntimeIdentifier=iossimulator-arm64 \
+            /p:MtouchLink=SdkOnly \
+            /p:PublishTrimmed=false
 
       - name: Upload Simulator .app
         if: ${{ env.PACKAGE_APP == 'true' }}
@@ -117,6 +125,8 @@ jobs:
           # Adjust signing details if needed via MSBuild props
           dotnet publish "$PROJECT" -c "$CONFIG" -f net8.0-ios \
             /p:ArchiveOnBuild=true \
+            /p:MtouchLink=SdkOnly \
+            /p:PublishTrimmed=false \
             /p:BuildIpa=true \
             "/p:CodesignKey=${CODESIGN_KEY:-Apple Distribution}" \
             "/p:CodesignProvision=${PROVISION_UUID}" \
