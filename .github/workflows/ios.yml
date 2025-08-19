@@ -1,5 +1,9 @@
 name: iOS (MAUI) Build
- # CI: workflow adjusted to fix YAML and trigger build
+ # CI: workflow adjusted to fix YAML and trigge      - name: Build iOS Simulator App
+        run: |
+          dotnet build "$PROJECT" -c "$CONFIG" -f net8.0-ios \
+            /p:RuntimeIdentifier=iossimulator-arm64 \
+            /p:MtouchLink=Noned
 
 on:
   push:
@@ -73,8 +77,7 @@ jobs:
         run: |
           dotnet build "$PROJECT" -c "$CONFIG" -f net8.0-ios \
             /p:RuntimeIdentifier=iossimulator-arm64 \
-            /p:MtouchLink=SdkOnly \
-            /p:PublishTrimmed=false
+            /p:MtouchLink=None
 
       - name: Upload Simulator .app
         if: ${{ env.PACKAGE_APP == 'true' }}
@@ -125,8 +128,7 @@ jobs:
           # Adjust signing details if needed via MSBuild props
           dotnet publish "$PROJECT" -c "$CONFIG" -f net8.0-ios \
             /p:ArchiveOnBuild=true \
-            /p:MtouchLink=SdkOnly \
-            /p:PublishTrimmed=false \
+            /p:MtouchLink=None \
             /p:BuildIpa=true \
             "/p:CodesignKey=${CODESIGN_KEY:-Apple Distribution}" \
             "/p:CodesignProvision=${PROVISION_UUID}" \
