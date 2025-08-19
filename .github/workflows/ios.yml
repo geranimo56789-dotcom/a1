@@ -81,7 +81,7 @@ jobs:
         if: ${{ env.PACKAGE_APP == 'true' }}
         run: |
           echo "Listing simulator outputs:"
-          find . -path "*/bin/${CONFIG}/net8.0-ios/iossimulator-*" -maxdepth 5 -type f -print || true
+          find . -type f -path "*/bin/${CONFIG}/net8.0-ios/iossimulator-*/*" -print || true
 
       - name: Prepare signing assets (optional)
         if: ${{ env.BUILD_SIGNED_IPA == 'true' }}
@@ -124,7 +124,7 @@ jobs:
             /p:RuntimeIdentifier=ios-arm64
 
       - name: Upload IPA
-        if: ${{ and(eq(env.BUILD_SIGNED_IPA, 'true'), eq(env.PACKAGE_APP, 'true')) }}
+        if: ${{ env.BUILD_SIGNED_IPA == 'true' && env.PACKAGE_APP == 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: ios-ipa
@@ -136,4 +136,4 @@ jobs:
         if: ${{ env.BUILD_SIGNED_IPA == 'true' }}
         run: |
           echo "Listing device outputs:"
-          find . -path "*/bin/${CONFIG}/net8.0-ios/ios-arm64" -maxdepth 6 -type f -print || true
+          find . -type f -path "*/bin/${CONFIG}/net8.0-ios/ios-arm64/*" -print || true
