@@ -1,0 +1,2024 @@
+{
+  "league1_logos\\France_Ligue1\\Paris Saint-Germain.png": {
+    "team": "Paris Saint-Germain",
+    "league": "France_Ligue1",
+    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/100px-Paris_Saint-Germain_F.C..svg.png",
+    "timestamp": 1755523001.42951
+  },
+  "league1_logos\\France_Ligue1\\Lens.png": {
+    "team": "Lens",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/116.png",
+    "timestamp": 1755523330.135168
+  },
+  "league1_logos\\France_Ligue1\\Reims.png": {
+    "team": "Reims",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/93.png",
+    "timestamp": 1755523330.1381724
+  },
+  "league1_logos\\France_Ligue1\\Nice.png": {
+    "team": "Nice",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/91.png",
+    "timestamp": 1755523330.1487205
+  },
+  "league1_logos\\France_Ligue1\\Lille.png": {
+    "team": "Lille",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/79.png",
+    "timestamp": 1755523330.219504
+  },
+  "league1_logos\\France_Ligue1\\Lyon.png": {
+    "team": "Lyon",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/80.png",
+    "timestamp": 1755523330.2567134
+  },
+  "league1_logos\\France_Ligue1\\Strasbourg.png": {
+    "team": "Strasbourg",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/95.png",
+    "timestamp": 1755523330.3232386
+  },
+  "league1_logos\\France_Ligue1\\Rennes.png": {
+    "team": "Rennes",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/80.png",
+    "timestamp": 1755523330.3703582
+  },
+  "league1_logos\\France_Ligue1\\Marseille.png": {
+    "team": "Marseille",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/81.png",
+    "timestamp": 1755523330.4236083
+  },
+  "league1_logos\\France_Ligue1\\Montpellier.png": {
+    "team": "Montpellier",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/82.png",
+    "timestamp": 1755523330.5202165
+  },
+  "league1_logos\\France_Ligue1\\Monaco.png": {
+    "team": "Monaco",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/91.png",
+    "timestamp": 1755523330.5480561
+  },
+  "league1_logos\\France_Ligue1\\Clermont.png": {
+    "team": "Clermont",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/94.png",
+    "timestamp": 1755523330.6106062
+  },
+  "league1_logos\\France_Ligue1\\Nantes.png": {
+    "team": "Nantes",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/84.png",
+    "timestamp": 1755523330.6786582
+  },
+  "league1_logos\\France_Ligue1\\Lorient.png": {
+    "team": "Lorient",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/96.png",
+    "timestamp": 1755523330.7453356
+  },
+  "league1_logos\\France_Ligue1\\Brest.png": {
+    "team": "Brest",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/97.png",
+    "timestamp": 1755523330.7694185
+  },
+  "league1_logos\\France_Ligue1\\Toulouse.png": {
+    "team": "Toulouse",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/98.png",
+    "timestamp": 1755523330.8134198
+  },
+  "league1_logos\\France_Ligue1\\Auxerre.png": {
+    "team": "Auxerre",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/99.png",
+    "timestamp": 1755523330.8724499
+  },
+  "league1_logos\\France_Ligue1\\Ajaccio.png": {
+    "team": "Ajaccio",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/100.png",
+    "timestamp": 1755523330.93837
+  },
+  "league1_logos\\France_Ligue1\\Troyes.png": {
+    "team": "Troyes",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/101.png",
+    "timestamp": 1755523330.9882064
+  },
+  "league1_logos\\France_Ligue1\\Angers.png": {
+    "team": "Angers",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/102.png",
+    "timestamp": 1755523331.053899
+  },
+  "league1_logos\\England_Premier\\Brighton.png": {
+    "team": "Brighton",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/51.png",
+    "timestamp": 1755523483.1466217
+  },
+  "league1_logos\\England_Premier\\Brentford.png": {
+    "team": "Brentford",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/55.png",
+    "timestamp": 1755523483.1476238
+  },
+  "league1_logos\\England_Premier\\Aston Villa.png": {
+    "team": "Aston Villa",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/66.png",
+    "timestamp": 1755523483.2047691
+  },
+  "league1_logos\\England_Premier\\Manchester United.png": {
+    "team": "Manchester United",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/33.png",
+    "timestamp": 1755523483.2148333
+  },
+  "league1_logos\\England_Premier\\Liverpool.png": {
+    "team": "Liverpool",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/40.png",
+    "timestamp": 1755523483.3077388
+  },
+  "league1_logos\\England_Premier\\Manchester City.png": {
+    "team": "Manchester City",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/50.png",
+    "timestamp": 1755523483.3132904
+  },
+  "league1_logos\\England_Premier\\Arsenal.png": {
+    "team": "Arsenal",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/42.png",
+    "timestamp": 1755523483.3926227
+  },
+  "league1_logos\\England_Premier\\Chelsea.png": {
+    "team": "Chelsea",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/49.png",
+    "timestamp": 1755523483.4514472
+  },
+  "league1_logos\\England_Premier\\Newcastle United.png": {
+    "team": "Newcastle United",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/34.png",
+    "timestamp": 1755523483.5591028
+  },
+  "league1_logos\\England_Premier\\Fulham.png": {
+    "team": "Fulham",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/36.png",
+    "timestamp": 1755523483.594229
+  },
+  "league1_logos\\England_Premier\\Tottenham.png": {
+    "team": "Tottenham",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/47.png",
+    "timestamp": 1755523483.6122663
+  },
+  "league1_logos\\England_Premier\\Crystal Palace.png": {
+    "team": "Crystal Palace",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/52.png",
+    "timestamp": 1755523483.7343228
+  },
+  "league1_logos\\England_Premier\\Leicester City.png": {
+    "team": "Leicester City",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/46.png",
+    "timestamp": 1755523483.7559192
+  },
+  "league1_logos\\England_Premier\\West Ham United.png": {
+    "team": "West Ham United",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/48.png",
+    "timestamp": 1755523483.7599137
+  },
+  "league1_logos\\England_Premier\\Leeds United.png": {
+    "team": "Leeds United",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/63.png",
+    "timestamp": 1755523483.811217
+  },
+  "league1_logos\\England_Premier\\Wolverhampton.png": {
+    "team": "Wolverhampton",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/39.png",
+    "timestamp": 1755523483.943781
+  },
+  "league1_logos\\England_Premier\\Southampton.png": {
+    "team": "Southampton",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/41.png",
+    "timestamp": 1755523483.9783936
+  },
+  "league1_logos\\England_Premier\\Everton.png": {
+    "team": "Everton",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/45.png",
+    "timestamp": 1755523483.9944112
+  },
+  "league1_logos\\England_Premier\\Nottingham Forest.png": {
+    "team": "Nottingham Forest",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/65.png",
+    "timestamp": 1755523484.1367924
+  },
+  "league1_logos\\England_Premier\\Bournemouth.png": {
+    "team": "Bournemouth",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/35.png",
+    "timestamp": 1755523484.1407964
+  },
+  "league1_logos\\Spain_LaLiga\\Real Sociedad.png": {
+    "team": "Real Sociedad",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/548.png",
+    "timestamp": 1755523485.2882695
+  },
+  "league1_logos\\Spain_LaLiga\\Sevilla.png": {
+    "team": "Sevilla",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/536.png",
+    "timestamp": 1755523485.3421535
+  },
+  "league1_logos\\Spain_LaLiga\\Athletic Bilbao.png": {
+    "team": "Athletic Bilbao",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/531.png",
+    "timestamp": 1755523485.5362675
+  },
+  "league1_logos\\Spain_LaLiga\\Valencia.png": {
+    "team": "Valencia",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/532.png",
+    "timestamp": 1755523485.5603259
+  },
+  "league1_logos\\Spain_LaLiga\\Real Madrid.png": {
+    "team": "Real Madrid",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/541.png",
+    "timestamp": 1755523485.5646985
+  },
+  "league1_logos\\Spain_LaLiga\\Barcelona.png": {
+    "team": "Barcelona",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/529.png",
+    "timestamp": 1755523485.5656972
+  },
+  "league1_logos\\Spain_LaLiga\\Atletico Madrid.png": {
+    "team": "Atletico Madrid",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/530.png",
+    "timestamp": 1755523485.6115685
+  },
+  "league1_logos\\Spain_LaLiga\\Real Betis.png": {
+    "team": "Real Betis",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/543.png",
+    "timestamp": 1755523485.6708438
+  },
+  "league1_logos\\Spain_LaLiga\\Girona.png": {
+    "team": "Girona",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/547.png",
+    "timestamp": 1755523485.7310052
+  },
+  "league1_logos\\Spain_LaLiga\\Villarreal.png": {
+    "team": "Villarreal",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/533.png",
+    "timestamp": 1755523485.7891757
+  },
+  "league1_logos\\Spain_LaLiga\\Rayo Vallecano.png": {
+    "team": "Rayo Vallecano",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/728.png",
+    "timestamp": 1755523485.8423595
+  },
+  "league1_logos\\Spain_LaLiga\\Osasuna.png": {
+    "team": "Osasuna",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/727.png",
+    "timestamp": 1755523485.8959882
+  },
+  "league1_logos\\Spain_LaLiga\\Celta Vigo.png": {
+    "team": "Celta Vigo",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/538.png",
+    "timestamp": 1755523485.939885
+  },
+  "league1_logos\\Spain_LaLiga\\Getafe.png": {
+    "team": "Getafe",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/546.png",
+    "timestamp": 1755523486.0365424
+  },
+  "league1_logos\\Spain_LaLiga\\Mallorca.png": {
+    "team": "Mallorca",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/798.png",
+    "timestamp": 1755523486.0696442
+  },
+  "league1_logos\\Spain_LaLiga\\Almeria.png": {
+    "team": "Almeria",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/723.png",
+    "timestamp": 1755523486.1212916
+  },
+  "league1_logos\\Spain_LaLiga\\Las Palmas.png": {
+    "team": "Las Palmas",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/534.png",
+    "timestamp": 1755523486.1771474
+  },
+  "league1_logos\\Spain_LaLiga\\Cadiz.png": {
+    "team": "Cadiz",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/724.png",
+    "timestamp": 1755523486.2288032
+  },
+  "league1_logos\\Spain_LaLiga\\Granada.png": {
+    "team": "Granada",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/715.png",
+    "timestamp": 1755523486.2809434
+  },
+  "league1_logos\\Spain_LaLiga\\Alaves.png": {
+    "team": "Alaves",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/542.png",
+    "timestamp": 1755523486.383142
+  },
+  "league1_logos\\Italy_SerieA\\AC Milan.png": {
+    "team": "AC Milan",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/489.png",
+    "timestamp": 1755523487.5287235
+  },
+  "league1_logos\\Italy_SerieA\\Inter Milan.png": {
+    "team": "Inter Milan",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/505.png",
+    "timestamp": 1755523487.5769863
+  },
+  "league1_logos\\Italy_SerieA\\Atalanta.png": {
+    "team": "Atalanta",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/499.png",
+    "timestamp": 1755523487.649404
+  },
+  "league1_logos\\Italy_SerieA\\AS Roma.png": {
+    "team": "AS Roma",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/497.png",
+    "timestamp": 1755523487.7007945
+  },
+  "league1_logos\\Italy_SerieA\\Torino.png": {
+    "team": "Torino",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/503.png",
+    "timestamp": 1755523487.857814
+  },
+  "league1_logos\\Italy_SerieA\\Lazio.png": {
+    "team": "Lazio",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/487.png",
+    "timestamp": 1755523487.8673372
+  },
+  "league1_logos\\Italy_SerieA\\Fiorentina.png": {
+    "team": "Fiorentina",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/502.png",
+    "timestamp": 1755523487.8924184
+  },
+  "league1_logos\\Italy_SerieA\\Bologna.png": {
+    "team": "Bologna",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/500.png",
+    "timestamp": 1755523487.922528
+  },
+  "league1_logos\\Italy_SerieA\\Juventus.png": {
+    "team": "Juventus",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/496.png",
+    "timestamp": 1755523488.084192
+  },
+  "league1_logos\\Italy_SerieA\\Napoli.png": {
+    "team": "Napoli",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/492.png",
+    "timestamp": 1755523488.1499085
+  },
+  "league1_logos\\Italy_SerieA\\Monza.png": {
+    "team": "Monza",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/1579.png",
+    "timestamp": 1755523488.1945875
+  },
+  "league1_logos\\Italy_SerieA\\Lecce.png": {
+    "team": "Lecce",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/867.png",
+    "timestamp": 1755523488.207134
+  },
+  "league1_logos\\Italy_SerieA\\Genoa.png": {
+    "team": "Genoa",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/495.png",
+    "timestamp": 1755523488.2111263
+  },
+  "league1_logos\\Italy_SerieA\\Sassuolo.png": {
+    "team": "Sassuolo",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/488.png",
+    "timestamp": 1755523488.353198
+  },
+  "league1_logos\\Italy_SerieA\\Udinese.png": {
+    "team": "Udinese",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/494.png",
+    "timestamp": 1755523488.3742974
+  },
+  "league1_logos\\Italy_SerieA\\Frosinone.png": {
+    "team": "Frosinone",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/1578.png",
+    "timestamp": 1755523488.4259975
+  },
+  "league1_logos\\Italy_SerieA\\Cagliari.png": {
+    "team": "Cagliari",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/490.png",
+    "timestamp": 1755523488.5022206
+  },
+  "league1_logos\\Italy_SerieA\\Verona.png": {
+    "team": "Verona",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/504.png",
+    "timestamp": 1755523488.5557077
+  },
+  "league1_logos\\Italy_SerieA\\Empoli.png": {
+    "team": "Empoli",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/511.png",
+    "timestamp": 1755523488.600809
+  },
+  "league1_logos\\Italy_SerieA\\Salernitana.png": {
+    "team": "Salernitana",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/514.png",
+    "timestamp": 1755523488.6524222
+  },
+  "league1_logos\\Germany_Bundesliga\\RB Leipzig.png": {
+    "team": "RB Leipzig",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/173.png",
+    "timestamp": 1755523489.8443313
+  },
+  "league1_logos\\Germany_Bundesliga\\Union Berlin.png": {
+    "team": "Union Berlin",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/182.png",
+    "timestamp": 1755523489.848863
+  },
+  "league1_logos\\Germany_Bundesliga\\Borussia Dortmund.png": {
+    "team": "Borussia Dortmund",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/165.png",
+    "timestamp": 1755523489.90219
+  },
+  "league1_logos\\Germany_Bundesliga\\Bayer Leverkusen.png": {
+    "team": "Bayer Leverkusen",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/161.png",
+    "timestamp": 1755523489.9493213
+  },
+  "league1_logos\\Germany_Bundesliga\\VfL Wolfsburg.png": {
+    "team": "VfL Wolfsburg",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/161.png",
+    "timestamp": 1755523490.0082102
+  },
+  "league1_logos\\Germany_Bundesliga\\Eintracht Frankfurt.png": {
+    "team": "Eintracht Frankfurt",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/169.png",
+    "timestamp": 1755523490.07803
+  },
+  "league1_logos\\Germany_Bundesliga\\SC Freiburg.png": {
+    "team": "SC Freiburg",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/160.png",
+    "timestamp": 1755523490.16991
+  },
+  "league1_logos\\Germany_Bundesliga\\FC Bayern Munich.png": {
+    "team": "FC Bayern Munich",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/157.png",
+    "timestamp": 1755523490.2011278
+  },
+  "league1_logos\\Germany_Bundesliga\\Borussia Monchengladbach.png": {
+    "team": "Borussia Monchengladbach",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/164.png",
+    "timestamp": 1755523490.223694
+  },
+  "league1_logos\\Germany_Bundesliga\\Werder Bremen.png": {
+    "team": "Werder Bremen",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/162.png",
+    "timestamp": 1755523490.296011
+  },
+  "league1_logos\\Germany_Bundesliga\\Mainz 05.png": {
+    "team": "Mainz 05",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/168.png",
+    "timestamp": 1755523490.3635104
+  },
+  "league1_logos\\Germany_Bundesliga\\FC Koln.png": {
+    "team": "FC Koln",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/192.png",
+    "timestamp": 1755523490.4036374
+  },
+  "league1_logos\\Germany_Bundesliga\\TSG Hoffenheim.png": {
+    "team": "TSG Hoffenheim",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/167.png",
+    "timestamp": 1755523490.4958076
+  },
+  "league1_logos\\Germany_Bundesliga\\VfL Bochum.png": {
+    "team": "VfL Bochum",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/172.png",
+    "timestamp": 1755523490.5336561
+  },
+  "league1_logos\\Germany_Bundesliga\\FC Augsburg.png": {
+    "team": "FC Augsburg",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/170.png",
+    "timestamp": 1755523490.5700133
+  },
+  "league1_logos\\Germany_Bundesliga\\VfB Stuttgart.png": {
+    "team": "VfB Stuttgart",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/172.png",
+    "timestamp": 1755523490.6522262
+  },
+  "league1_logos\\Germany_Bundesliga\\Hertha BSC.png": {
+    "team": "Hertha BSC",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/159.png",
+    "timestamp": 1755523490.6772857
+  },
+  "league1_logos\\Germany_Bundesliga\\Schalke 04.png": {
+    "team": "Schalke 04",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/166.png",
+    "timestamp": 1755523490.7467804
+  },
+  "league_logos\\Germany_Bundesliga\\Eintracht Frankfurt.png": {
+    "team": "Eintracht Frankfurt",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/169.png",
+    "timestamp": 1755524191.755528
+  },
+  "league_logos\\Germany_Bundesliga\\RB Leipzig.png": {
+    "team": "RB Leipzig",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/173.png",
+    "timestamp": 1755524191.7722654
+  },
+  "league_logos\\Germany_Bundesliga\\Borussia Dortmund.png": {
+    "team": "Borussia Dortmund",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/165.png",
+    "timestamp": 1755524191.7907898
+  },
+  "league_logos\\Germany_Bundesliga\\Union Berlin.png": {
+    "team": "Union Berlin",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/182.png",
+    "timestamp": 1755524191.8334148
+  },
+  "league_logos\\Germany_Bundesliga\\Werder Bremen.png": {
+    "team": "Werder Bremen",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/162.png",
+    "timestamp": 1755524191.8906615
+  },
+  "league_logos\\Germany_Bundesliga\\Bayer Leverkusen.png": {
+    "team": "Bayer Leverkusen",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/161.png",
+    "timestamp": 1755524191.9448943
+  },
+  "league_logos\\Germany_Bundesliga\\Borussia Monchengladbach.png": {
+    "team": "Borussia Monchengladbach",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/164.png",
+    "timestamp": 1755524192.0080526
+  },
+  "league_logos\\Germany_Bundesliga\\SC Freiburg.png": {
+    "team": "SC Freiburg",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/160.png",
+    "timestamp": 1755524192.1216173
+  },
+  "league_logos\\Germany_Bundesliga\\FC Bayern Munich.png": {
+    "team": "FC Bayern Munich",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/157.png",
+    "timestamp": 1755524192.1382492
+  },
+  "league_logos\\Germany_Bundesliga\\VfL Wolfsburg.png": {
+    "team": "VfL Wolfsburg",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/161.png",
+    "timestamp": 1755524192.1669314
+  },
+  "league_logos\\Germany_Bundesliga\\Mainz 05.png": {
+    "team": "Mainz 05",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/168.png",
+    "timestamp": 1755524192.2584121
+  },
+  "league_logos\\Germany_Bundesliga\\FC Koln.png": {
+    "team": "FC Koln",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/192.png",
+    "timestamp": 1755524192.290021
+  },
+  "league_logos\\Germany_Bundesliga\\TSG Hoffenheim.png": {
+    "team": "TSG Hoffenheim",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/167.png",
+    "timestamp": 1755524192.3482082
+  },
+  "league_logos\\Germany_Bundesliga\\VfL Bochum.png": {
+    "team": "VfL Bochum",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/172.png",
+    "timestamp": 1755524192.4568417
+  },
+  "league_logos\\Germany_Bundesliga\\FC Augsburg.png": {
+    "team": "FC Augsburg",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/170.png",
+    "timestamp": 1755524192.4624143
+  },
+  "league_logos\\Germany_Bundesliga\\VfB Stuttgart.png": {
+    "team": "VfB Stuttgart",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/172.png",
+    "timestamp": 1755524192.5306654
+  },
+  "league_logos\\Germany_Bundesliga\\Hertha BSC.png": {
+    "team": "Hertha BSC",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/159.png",
+    "timestamp": 1755524192.59102
+  },
+  "league_logos\\Germany_Bundesliga\\Schalke 04.png": {
+    "team": "Schalke 04",
+    "league": "Germany_Bundesliga",
+    "url": "https://media.api-sports.io/football/teams/166.png",
+    "timestamp": 1755524192.6165755
+  },
+  "league_logos\\France_Ligue1\\Rennes.png": {
+    "team": "Rennes",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/80.png",
+    "timestamp": 1755524193.7609708
+  },
+  "league_logos\\France_Ligue1\\Nice.png": {
+    "team": "Nice",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/91.png",
+    "timestamp": 1755524193.8085732
+  },
+  "league_logos\\France_Ligue1\\Marseille.png": {
+    "team": "Marseille",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/81.png",
+    "timestamp": 1755524193.9197888
+  },
+  "league_logos\\France_Ligue1\\Paris Saint-Germain.png": {
+    "team": "Paris Saint-Germain",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/85.png",
+    "timestamp": 1755524193.9253793
+  },
+  "league_logos\\France_Ligue1\\Monaco.png": {
+    "team": "Monaco",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/91.png",
+    "timestamp": 1755524193.9750078
+  },
+  "league_logos\\France_Ligue1\\Lille.png": {
+    "team": "Lille",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/79.png",
+    "timestamp": 1755524194.0424414
+  },
+  "league_logos\\France_Ligue1\\Lens.png": {
+    "team": "Lens",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/116.png",
+    "timestamp": 1755524194.0875454
+  },
+  "league_logos\\France_Ligue1\\Montpellier.png": {
+    "team": "Montpellier",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/82.png",
+    "timestamp": 1755524194.1862059
+  },
+  "league_logos\\France_Ligue1\\Lyon.png": {
+    "team": "Lyon",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/80.png",
+    "timestamp": 1755524194.2703526
+  },
+  "league_logos\\France_Ligue1\\Reims.png": {
+    "team": "Reims",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/93.png",
+    "timestamp": 1755524194.2759054
+  },
+  "league_logos\\France_Ligue1\\Strasbourg.png": {
+    "team": "Strasbourg",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/95.png",
+    "timestamp": 1755524194.3024514
+  },
+  "league_logos\\France_Ligue1\\Nantes.png": {
+    "team": "Nantes",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/84.png",
+    "timestamp": 1755524194.3824542
+  },
+  "league_logos\\France_Ligue1\\Lorient.png": {
+    "team": "Lorient",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/96.png",
+    "timestamp": 1755524194.4494832
+  },
+  "league_logos\\France_Ligue1\\Clermont.png": {
+    "team": "Clermont",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/94.png",
+    "timestamp": 1755524194.4730654
+  },
+  "league_logos\\France_Ligue1\\Brest.png": {
+    "team": "Brest",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/97.png",
+    "timestamp": 1755524194.5247295
+  },
+  "league_logos\\France_Ligue1\\Toulouse.png": {
+    "team": "Toulouse",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/98.png",
+    "timestamp": 1755524194.587948
+  },
+  "league_logos\\France_Ligue1\\Auxerre.png": {
+    "team": "Auxerre",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/99.png",
+    "timestamp": 1755524194.6350648
+  },
+  "league_logos\\France_Ligue1\\Ajaccio.png": {
+    "team": "Ajaccio",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/100.png",
+    "timestamp": 1755524194.7095032
+  },
+  "league_logos\\France_Ligue1\\Troyes.png": {
+    "team": "Troyes",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/101.png",
+    "timestamp": 1755524194.7495983
+  },
+  "league_logos\\France_Ligue1\\Angers.png": {
+    "team": "Angers",
+    "league": "France_Ligue1",
+    "url": "https://media.api-sports.io/football/teams/102.png",
+    "timestamp": 1755524194.8308556
+  },
+  "league_logos\\Spain_LaLiga\\Real Madrid.png": {
+    "team": "Real Madrid",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/541.png",
+    "timestamp": 1755524196.0090334
+  },
+  "league_logos\\Spain_LaLiga\\Barcelona.png": {
+    "team": "Barcelona",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/529.png",
+    "timestamp": 1755524196.0325177
+  },
+  "league_logos\\Spain_LaLiga\\Real Betis.png": {
+    "team": "Real Betis",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/543.png",
+    "timestamp": 1755524196.0695016
+  },
+  "league_logos\\Spain_LaLiga\\Real Sociedad.png": {
+    "team": "Real Sociedad",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/548.png",
+    "timestamp": 1755524196.1306036
+  },
+  "league_logos\\Spain_LaLiga\\Villarreal.png": {
+    "team": "Villarreal",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/533.png",
+    "timestamp": 1755524196.2026772
+  },
+  "league_logos\\Spain_LaLiga\\Valencia.png": {
+    "team": "Valencia",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/532.png",
+    "timestamp": 1755524196.247922
+  },
+  "league_logos\\Spain_LaLiga\\Sevilla.png": {
+    "team": "Sevilla",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/536.png",
+    "timestamp": 1755524196.295123
+  },
+  "league_logos\\Spain_LaLiga\\Athletic Bilbao.png": {
+    "team": "Athletic Bilbao",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/531.png",
+    "timestamp": 1755524196.3512843
+  },
+  "league_logos\\Spain_LaLiga\\Atletico Madrid.png": {
+    "team": "Atletico Madrid",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/530.png",
+    "timestamp": 1755524196.3981025
+  },
+  "league_logos\\Spain_LaLiga\\Girona.png": {
+    "team": "Girona",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/547.png",
+    "timestamp": 1755524196.4702258
+  },
+  "league_logos\\Spain_LaLiga\\Rayo Vallecano.png": {
+    "team": "Rayo Vallecano",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/728.png",
+    "timestamp": 1755524196.5175874
+  },
+  "league_logos\\Spain_LaLiga\\Osasuna.png": {
+    "team": "Osasuna",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/727.png",
+    "timestamp": 1755524196.595391
+  },
+  "league_logos\\Spain_LaLiga\\Celta Vigo.png": {
+    "team": "Celta Vigo",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/538.png",
+    "timestamp": 1755524196.6170378
+  },
+  "league_logos\\Spain_LaLiga\\Mallorca.png": {
+    "team": "Mallorca",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/798.png",
+    "timestamp": 1755524196.7141116
+  },
+  "league_logos\\Spain_LaLiga\\Almeria.png": {
+    "team": "Almeria",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/723.png",
+    "timestamp": 1755524196.7522817
+  },
+  "league_logos\\Spain_LaLiga\\Getafe.png": {
+    "team": "Getafe",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/546.png",
+    "timestamp": 1755524196.8166788
+  },
+  "league_logos\\Spain_LaLiga\\Las Palmas.png": {
+    "team": "Las Palmas",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/534.png",
+    "timestamp": 1755524196.8654723
+  },
+  "league_logos\\Spain_LaLiga\\Cadiz.png": {
+    "team": "Cadiz",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/724.png",
+    "timestamp": 1755524196.9075873
+  },
+  "league_logos\\Spain_LaLiga\\Granada.png": {
+    "team": "Granada",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/715.png",
+    "timestamp": 1755524196.963879
+  },
+  "league_logos\\Spain_LaLiga\\Alaves.png": {
+    "team": "Alaves",
+    "league": "Spain_LaLiga",
+    "url": "https://media.api-sports.io/football/teams/542.png",
+    "timestamp": 1755524197.0626035
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Braga.png": {
+    "team": "Braga",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.2726314
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Sporting CP.png": {
+    "team": "Sporting CP",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.3105724
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Farense.png": {
+    "team": "Farense",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.3673344
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Porto.png": {
+    "team": "Porto",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.422623
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Moreirense.png": {
+    "team": "Moreirense",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.483561
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Vitoria Guimaraes.png": {
+    "team": "Vitoria Guimaraes",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.5624337
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Benfica.png": {
+    "team": "Benfica",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.5886965
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Casa Pia.png": {
+    "team": "Casa Pia",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.6538405
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Boavista.png": {
+    "team": "Boavista",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.7044709
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Famalicao.png": {
+    "team": "Famalicao",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.7551477
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Estoril.png": {
+    "team": "Estoril",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.8308241
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Arouca.png": {
+    "team": "Arouca",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.8770661
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Chaves.png": {
+    "team": "Chaves",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.9322581
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Vizela.png": {
+    "team": "Vizela",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524198.9768054
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Rio Ave.png": {
+    "team": "Rio Ave",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524199.0500438
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Gil Vicente.png": {
+    "team": "Gil Vicente",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524199.0881317
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Portimonense.png": {
+    "team": "Portimonense",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524199.1459007
+  },
+  "league_logos\\Portugal_PrimeiraLiga\\Estrela Amadora.png": {
+    "team": "Estrela Amadora",
+    "league": "Portugal_PrimeiraLiga",
+    "url": "https://media.api-sports.io/football/teams/212.png",
+    "timestamp": 1755524199.2145145
+  },
+  "league_logos\\Brazil_Brasileirao\\Botafogo.png": {
+    "team": "Botafogo",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.4758143
+  },
+  "league_logos\\Brazil_Brasileirao\\Palmeiras.png": {
+    "team": "Palmeiras",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.5160902
+  },
+  "league_logos\\Brazil_Brasileirao\\Gremio.png": {
+    "team": "Gremio",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.554215
+  },
+  "league_logos\\Brazil_Brasileirao\\Atletico Mineiro.png": {
+    "team": "Atletico Mineiro",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.6178677
+  },
+  "league_logos\\Brazil_Brasileirao\\Internacional.png": {
+    "team": "Internacional",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.6891782
+  },
+  "league_logos\\Brazil_Brasileirao\\Sao Paulo.png": {
+    "team": "Sao Paulo",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.7329283
+  },
+  "league_logos\\Brazil_Brasileirao\\Flamengo.png": {
+    "team": "Flamengo",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.7975755
+  },
+  "league_logos\\Brazil_Brasileirao\\Vasco da Gama.png": {
+    "team": "Vasco da Gama",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.8482728
+  },
+  "league_logos\\Brazil_Brasileirao\\Santos.png": {
+    "team": "Santos",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.9187522
+  },
+  "league_logos\\Brazil_Brasileirao\\Corinthians.png": {
+    "team": "Corinthians",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524200.9516606
+  },
+  "league_logos\\Brazil_Brasileirao\\Fluminense.png": {
+    "team": "Fluminense",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.0203001
+  },
+  "league_logos\\Brazil_Brasileirao\\Cruzeiro.png": {
+    "team": "Cruzeiro",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.065632
+  },
+  "league_logos\\Brazil_Brasileirao\\Athletico Paranaense.png": {
+    "team": "Athletico Paranaense",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.133189
+  },
+  "league_logos\\Brazil_Brasileirao\\Fortaleza.png": {
+    "team": "Fortaleza",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.1623626
+  },
+  "league_logos\\Brazil_Brasileirao\\Bahia.png": {
+    "team": "Bahia",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.2468388
+  },
+  "league_logos\\Brazil_Brasileirao\\Vitoria.png": {
+    "team": "Vitoria",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.2890058
+  },
+  "league_logos\\Brazil_Brasileirao\\Criciuma.png": {
+    "team": "Criciuma",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.3435986
+  },
+  "league_logos\\Brazil_Brasileirao\\Juventude.png": {
+    "team": "Juventude",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.389318
+  },
+  "league_logos\\Brazil_Brasileirao\\Atletico Goianiense.png": {
+    "team": "Atletico Goianiense",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.446147
+  },
+  "league_logos\\Brazil_Brasileirao\\Bragantino.png": {
+    "team": "Bragantino",
+    "league": "Brazil_Brasileirao",
+    "url": "https://media.api-sports.io/football/teams/1963.png",
+    "timestamp": 1755524201.533134
+  },
+  "league_logos\\Scotland_Premiership\\Celtic.png": {
+    "team": "Celtic",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524202.7373152
+  },
+  "league_logos\\Scotland_Premiership\\Rangers.png": {
+    "team": "Rangers",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524202.7725046
+  },
+  "league_logos\\Scotland_Premiership\\Aberdeen.png": {
+    "team": "Aberdeen",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524202.8350317
+  },
+  "league_logos\\Scotland_Premiership\\St Mirren.png": {
+    "team": "St Mirren",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524202.8825502
+  },
+  "league_logos\\Scotland_Premiership\\Hibernian.png": {
+    "team": "Hibernian",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524202.9374957
+  },
+  "league_logos\\Scotland_Premiership\\Motherwell.png": {
+    "team": "Motherwell",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524203.006304
+  },
+  "league_logos\\Scotland_Premiership\\Dundee.png": {
+    "team": "Dundee",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524203.0542886
+  },
+  "league_logos\\Scotland_Premiership\\Hearts.png": {
+    "team": "Hearts",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524203.1029353
+  },
+  "league_logos\\Scotland_Premiership\\Kilmarnock.png": {
+    "team": "Kilmarnock",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524203.1736023
+  },
+  "league_logos\\Scotland_Premiership\\St Johnstone.png": {
+    "team": "St Johnstone",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524203.2208085
+  },
+  "league_logos\\Scotland_Premiership\\Livingston.png": {
+    "team": "Livingston",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524203.2724574
+  },
+  "league_logos\\Scotland_Premiership\\Ross County.png": {
+    "team": "Ross County",
+    "league": "Scotland_Premiership",
+    "url": "https://media.api-sports.io/football/teams/247.png",
+    "timestamp": 1755524203.3238304
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Ahli.png": {
+    "team": "Al Ahli",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.4745119
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Hilal.png": {
+    "team": "Al Hilal",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.5157003
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Ettifaq.png": {
+    "team": "Al Ettifaq",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.5648699
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Ittihad.png": {
+    "team": "Al Ittihad",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.6383693
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Riyadh.png": {
+    "team": "Al Riyadh",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.6875913
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Nassr.png": {
+    "team": "Al Nassr",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.7382529
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Shabab.png": {
+    "team": "Al Shabab",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.7910335
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Taawoun.png": {
+    "team": "Al Taawoun",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.8611925
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Khaleej.png": {
+    "team": "Al Khaleej",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.9057913
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Fateh.png": {
+    "team": "Al Fateh",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524204.9584148
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Wehda.png": {
+    "team": "Al Wehda",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524205.0266175
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Raed.png": {
+    "team": "Al Raed",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524205.0732758
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Tai.png": {
+    "team": "Al Tai",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524205.122188
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Abha.png": {
+    "team": "Abha",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524205.199698
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Hazem.png": {
+    "team": "Al Hazem",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524205.2364128
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Okhdood.png": {
+    "team": "Al Okhdood",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524205.3042846
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Damac.png": {
+    "team": "Damac",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524205.35158
+  },
+  "league_logos\\SaudiArabia_ProLeague\\Al Fayha.png": {
+    "team": "Al Fayha",
+    "league": "SaudiArabia_ProLeague",
+    "url": "https://media.api-sports.io/football/teams/2784.png",
+    "timestamp": 1755524205.403684
+  },
+  "league_logos\\Turkey_SuperLig\\Adana Demirspor.png": {
+    "team": "Adana Demirspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.5384629
+  },
+  "league_logos\\Turkey_SuperLig\\Trabzonspor.png": {
+    "team": "Trabzonspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.6334627
+  },
+  "league_logos\\Turkey_SuperLig\\Fenerbahce.png": {
+    "team": "Fenerbahce",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.6505015
+  },
+  "league_logos\\Turkey_SuperLig\\Konyaspor.png": {
+    "team": "Konyaspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.7071283
+  },
+  "league_logos\\Turkey_SuperLig\\Antalyaspor.png": {
+    "team": "Antalyaspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.7706168
+  },
+  "league_logos\\Turkey_SuperLig\\Alanyaspor.png": {
+    "team": "Alanyaspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.8182185
+  },
+  "league_logos\\Turkey_SuperLig\\Kayserispor.png": {
+    "team": "Kayserispor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.8940833
+  },
+  "league_logos\\Turkey_SuperLig\\Besiktas.png": {
+    "team": "Besiktas",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.9305236
+  },
+  "league_logos\\Turkey_SuperLig\\Galatasaray.png": {
+    "team": "Galatasaray",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524206.9958577
+  },
+  "league_logos\\Turkey_SuperLig\\Kasimpasa.png": {
+    "team": "Kasimpasa",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.054781
+  },
+  "league_logos\\Turkey_SuperLig\\Sivasspor.png": {
+    "team": "Sivasspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.0914445
+  },
+  "league_logos\\Turkey_SuperLig\\Fatih Karagumruk.png": {
+    "team": "Fatih Karagumruk",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.1686952
+  },
+  "league_logos\\Turkey_SuperLig\\Gaziantep FK.png": {
+    "team": "Gaziantep FK",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.209213
+  },
+  "league_logos\\Turkey_SuperLig\\Istanbul Basaksehir.png": {
+    "team": "Istanbul Basaksehir",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.3024929
+  },
+  "league_logos\\Turkey_SuperLig\\Hatayspor.png": {
+    "team": "Hatayspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.3179953
+  },
+  "league_logos\\Turkey_SuperLig\\Pendikspor.png": {
+    "team": "Pendikspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.3926995
+  },
+  "league_logos\\Turkey_SuperLig\\Rizespor.png": {
+    "team": "Rizespor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.4265034
+  },
+  "league_logos\\Turkey_SuperLig\\Samsunspor.png": {
+    "team": "Samsunspor",
+    "league": "Turkey_SuperLig",
+    "url": "https://media.api-sports.io/football/teams/645.png",
+    "timestamp": 1755524207.5247939
+  },
+  "league_logos\\Italy_SerieA\\Lazio.png": {
+    "team": "Lazio",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/487.png",
+    "timestamp": 1755524208.7033749
+  },
+  "league_logos\\Italy_SerieA\\Napoli.png": {
+    "team": "Napoli",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/492.png",
+    "timestamp": 1755524208.7234097
+  },
+  "league_logos\\Italy_SerieA\\Juventus.png": {
+    "team": "Juventus",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/496.png",
+    "timestamp": 1755524208.8446434
+  },
+  "league_logos\\Italy_SerieA\\Torino.png": {
+    "team": "Torino",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/503.png",
+    "timestamp": 1755524208.8915553
+  },
+  "league_logos\\Italy_SerieA\\Fiorentina.png": {
+    "team": "Fiorentina",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/502.png",
+    "timestamp": 1755524208.9056325
+  },
+  "league_logos\\Italy_SerieA\\Bologna.png": {
+    "team": "Bologna",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/500.png",
+    "timestamp": 1755524208.9266922
+  },
+  "league_logos\\Italy_SerieA\\Inter Milan.png": {
+    "team": "Inter Milan",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/505.png",
+    "timestamp": 1755524208.9925115
+  },
+  "league_logos\\Italy_SerieA\\AS Roma.png": {
+    "team": "AS Roma",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/497.png",
+    "timestamp": 1755524209.0702195
+  },
+  "league_logos\\Italy_SerieA\\Atalanta.png": {
+    "team": "Atalanta",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/499.png",
+    "timestamp": 1755524209.1053412
+  },
+  "league_logos\\Italy_SerieA\\AC Milan.png": {
+    "team": "AC Milan",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/489.png",
+    "timestamp": 1755524209.159506
+  },
+  "league_logos\\Italy_SerieA\\Monza.png": {
+    "team": "Monza",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/1579.png",
+    "timestamp": 1755524209.2976623
+  },
+  "league_logos\\Italy_SerieA\\Lecce.png": {
+    "team": "Lecce",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/867.png",
+    "timestamp": 1755524209.3202543
+  },
+  "league_logos\\Italy_SerieA\\Genoa.png": {
+    "team": "Genoa",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/495.png",
+    "timestamp": 1755524209.3297648
+  },
+  "league_logos\\Italy_SerieA\\Sassuolo.png": {
+    "team": "Sassuolo",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/488.png",
+    "timestamp": 1755524209.452488
+  },
+  "league_logos\\Italy_SerieA\\Udinese.png": {
+    "team": "Udinese",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/494.png",
+    "timestamp": 1755524209.4956305
+  },
+  "league_logos\\Italy_SerieA\\Frosinone.png": {
+    "team": "Frosinone",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/1578.png",
+    "timestamp": 1755524209.5091956
+  },
+  "league_logos\\Italy_SerieA\\Cagliari.png": {
+    "team": "Cagliari",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/490.png",
+    "timestamp": 1755524209.648181
+  },
+  "league_logos\\Italy_SerieA\\Verona.png": {
+    "team": "Verona",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/504.png",
+    "timestamp": 1755524209.7430167
+  },
+  "league_logos\\Italy_SerieA\\Empoli.png": {
+    "team": "Empoli",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/511.png",
+    "timestamp": 1755524209.7621171
+  },
+  "league_logos\\Italy_SerieA\\Salernitana.png": {
+    "team": "Salernitana",
+    "league": "Italy_SerieA",
+    "url": "https://media.api-sports.io/football/teams/514.png",
+    "timestamp": 1755524209.820843
+  },
+  "league_logos\\England_Premier\\Manchester City.png": {
+    "team": "Manchester City",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/50.png",
+    "timestamp": 1755524210.9799647
+  },
+  "league_logos\\England_Premier\\Brighton.png": {
+    "team": "Brighton",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/51.png",
+    "timestamp": 1755524211.1054661
+  },
+  "league_logos\\England_Premier\\Manchester United.png": {
+    "team": "Manchester United",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/33.png",
+    "timestamp": 1755524211.1104228
+  },
+  "league_logos\\England_Premier\\Chelsea.png": {
+    "team": "Chelsea",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/49.png",
+    "timestamp": 1755524211.177345
+  },
+  "league_logos\\England_Premier\\Arsenal.png": {
+    "team": "Arsenal",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/42.png",
+    "timestamp": 1755524211.2867482
+  },
+  "league_logos\\England_Premier\\Tottenham.png": {
+    "team": "Tottenham",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/47.png",
+    "timestamp": 1755524211.2918003
+  },
+  "league_logos\\England_Premier\\Newcastle United.png": {
+    "team": "Newcastle United",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/34.png",
+    "timestamp": 1755524211.3856301
+  },
+  "league_logos\\England_Premier\\Aston Villa.png": {
+    "team": "Aston Villa",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/66.png",
+    "timestamp": 1755524211.3921325
+  },
+  "league_logos\\England_Premier\\Liverpool.png": {
+    "team": "Liverpool",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/40.png",
+    "timestamp": 1755524211.488398
+  },
+  "league_logos\\England_Premier\\Fulham.png": {
+    "team": "Fulham",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/36.png",
+    "timestamp": 1755524211.5264804
+  },
+  "league_logos\\England_Premier\\Brentford.png": {
+    "team": "Brentford",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/55.png",
+    "timestamp": 1755524211.5652597
+  },
+  "league_logos\\England_Premier\\Leicester City.png": {
+    "team": "Leicester City",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/46.png",
+    "timestamp": 1755524211.6146848
+  },
+  "league_logos\\England_Premier\\West Ham United.png": {
+    "team": "West Ham United",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/48.png",
+    "timestamp": 1755524211.720727
+  },
+  "league_logos\\England_Premier\\Crystal Palace.png": {
+    "team": "Crystal Palace",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/52.png",
+    "timestamp": 1755524211.735412
+  },
+  "league_logos\\England_Premier\\Leeds United.png": {
+    "team": "Leeds United",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/63.png",
+    "timestamp": 1755524211.7631876
+  },
+  "league_logos\\England_Premier\\Wolverhampton.png": {
+    "team": "Wolverhampton",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/39.png",
+    "timestamp": 1755524211.900995
+  },
+  "league_logos\\England_Premier\\Southampton.png": {
+    "team": "Southampton",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/41.png",
+    "timestamp": 1755524211.9421837
+  },
+  "league_logos\\England_Premier\\Everton.png": {
+    "team": "Everton",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/45.png",
+    "timestamp": 1755524211.9574986
+  },
+  "league_logos\\England_Premier\\Bournemouth.png": {
+    "team": "Bournemouth",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/35.png",
+    "timestamp": 1755524212.0506618
+  },
+  "league_logos\\England_Premier\\Nottingham Forest.png": {
+    "team": "Nottingham Forest",
+    "league": "England_Premier",
+    "url": "https://media.api-sports.io/football/teams/65.png",
+    "timestamp": 1755524212.0677016
+  },
+  "league_logos\\Switzerland_SuperLeague\\FC Zurich.png": {
+    "team": "FC Zurich",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.264345
+  },
+  "league_logos\\Switzerland_SuperLeague\\FC Basel.png": {
+    "team": "FC Basel",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.2990155
+  },
+  "league_logos\\Switzerland_SuperLeague\\Young Boys.png": {
+    "team": "Young Boys",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.361008
+  },
+  "league_logos\\Switzerland_SuperLeague\\Grasshopper.png": {
+    "team": "Grasshopper",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.4012513
+  },
+  "league_logos\\Switzerland_SuperLeague\\Lugano.png": {
+    "team": "Lugano",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.4778721
+  },
+  "league_logos\\Switzerland_SuperLeague\\St. Gallen.png": {
+    "team": "St. Gallen",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.522447
+  },
+  "league_logos\\Switzerland_SuperLeague\\Servette.png": {
+    "team": "Servette",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.5654447
+  },
+  "league_logos\\Switzerland_SuperLeague\\Winterthur.png": {
+    "team": "Winterthur",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.6351764
+  },
+  "league_logos\\Switzerland_SuperLeague\\Lausanne.png": {
+    "team": "Lausanne",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.685806
+  },
+  "league_logos\\Switzerland_SuperLeague\\Yverdon.png": {
+    "team": "Yverdon",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.7425141
+  },
+  "league_logos\\Switzerland_SuperLeague\\Luzern.png": {
+    "team": "Luzern",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.8105197
+  },
+  "league_logos\\Switzerland_SuperLeague\\Bellinzona.png": {
+    "team": "Bellinzona",
+    "league": "Switzerland_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/244.png",
+    "timestamp": 1755524213.850617
+  },
+  "league_logos\\Greece_SuperLeague\\AEK Athens.png": {
+    "team": "AEK Athens",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.030335
+  },
+  "league_logos\\Greece_SuperLeague\\Olympiacos.png": {
+    "team": "Olympiacos",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.0837352
+  },
+  "league_logos\\Greece_SuperLeague\\Aris.png": {
+    "team": "Aris",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.1182594
+  },
+  "league_logos\\Greece_SuperLeague\\Atromitos.png": {
+    "team": "Atromitos",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.193723
+  },
+  "league_logos\\Greece_SuperLeague\\PAOK.png": {
+    "team": "PAOK",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.22657
+  },
+  "league_logos\\Greece_SuperLeague\\Panathinaikos.png": {
+    "team": "Panathinaikos",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.3141654
+  },
+  "league_logos\\Greece_SuperLeague\\Panserraikos.png": {
+    "team": "Panserraikos",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.3432024
+  },
+  "league_logos\\Greece_SuperLeague\\OFI Crete.png": {
+    "team": "OFI Crete",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.4160619
+  },
+  "league_logos\\Greece_SuperLeague\\Volos.png": {
+    "team": "Volos",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.4609826
+  },
+  "league_logos\\Greece_SuperLeague\\Lamia.png": {
+    "team": "Lamia",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.5011485
+  },
+  "league_logos\\Greece_SuperLeague\\Asteras Tripolis.png": {
+    "team": "Asteras Tripolis",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.565561
+  },
+  "league_logos\\Greece_SuperLeague\\Panetolikos.png": {
+    "team": "Panetolikos",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.6423836
+  },
+  "league_logos\\Greece_SuperLeague\\Kifisia.png": {
+    "team": "Kifisia",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.676122
+  },
+  "league_logos\\Greece_SuperLeague\\PAS Giannina.png": {
+    "team": "PAS Giannina",
+    "league": "Greece_SuperLeague",
+    "url": "https://media.api-sports.io/football/teams/553.png",
+    "timestamp": 1755524215.7296135
+  },
+  "league_logos\\USA_MLS\\New York City FC.png": {
+    "team": "New York City FC",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524216.8654168
+  },
+  "league_logos\\USA_MLS\\LAFC.png": {
+    "team": "LAFC",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524216.9431765
+  },
+  "league_logos\\USA_MLS\\New York Red Bulls.png": {
+    "team": "New York Red Bulls",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524216.9756756
+  },
+  "league_logos\\USA_MLS\\Real Salt Lake.png": {
+    "team": "Real Salt Lake",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.0564604
+  },
+  "league_logos\\USA_MLS\\Nashville SC.png": {
+    "team": "Nashville SC",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.0926244
+  },
+  "league_logos\\USA_MLS\\Philadelphia Union.png": {
+    "team": "Philadelphia Union",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.1609323
+  },
+  "league_logos\\USA_MLS\\Austin FC.png": {
+    "team": "Austin FC",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.2062101
+  },
+  "league_logos\\USA_MLS\\FC Dallas.png": {
+    "team": "FC Dallas",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.2523034
+  },
+  "league_logos\\USA_MLS\\Orlando City.png": {
+    "team": "Orlando City",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.3221784
+  },
+  "league_logos\\USA_MLS\\Minnesota United.png": {
+    "team": "Minnesota United",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.3668754
+  },
+  "league_logos\\USA_MLS\\Columbus Crew.png": {
+    "team": "Columbus Crew",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.4371495
+  },
+  "league_logos\\USA_MLS\\Seattle Sounders.png": {
+    "team": "Seattle Sounders",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.4846356
+  },
+  "league_logos\\USA_MLS\\Portland Timbers.png": {
+    "team": "Portland Timbers",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.5501115
+  },
+  "league_logos\\USA_MLS\\Vancouver Whitecaps.png": {
+    "team": "Vancouver Whitecaps",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.5947642
+  },
+  "league_logos\\USA_MLS\\Colorado Rapids.png": {
+    "team": "Colorado Rapids",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.6657174
+  },
+  "league_logos\\USA_MLS\\Sporting Kansas City.png": {
+    "team": "Sporting Kansas City",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.7032719
+  },
+  "league_logos\\USA_MLS\\Houston Dynamo.png": {
+    "team": "Houston Dynamo",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.7856014
+  },
+  "league_logos\\USA_MLS\\San Jose Earthquakes.png": {
+    "team": "San Jose Earthquakes",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.814721
+  },
+  "league_logos\\USA_MLS\\LA Galaxy.png": {
+    "team": "LA Galaxy",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.8843746
+  },
+  "league_logos\\USA_MLS\\Chicago Fire.png": {
+    "team": "Chicago Fire",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524217.9209769
+  },
+  "league_logos\\USA_MLS\\DC United.png": {
+    "team": "DC United",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.0012834
+  },
+  "league_logos\\USA_MLS\\New England Revolution.png": {
+    "team": "New England Revolution",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.0483162
+  },
+  "league_logos\\USA_MLS\\Toronto FC.png": {
+    "team": "Toronto FC",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.0886955
+  },
+  "league_logos\\USA_MLS\\CF Montreal.png": {
+    "team": "CF Montreal",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.1512396
+  },
+  "league_logos\\USA_MLS\\Atlanta United.png": {
+    "team": "Atlanta United",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.2422373
+  },
+  "league_logos\\USA_MLS\\Charlotte FC.png": {
+    "team": "Charlotte FC",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.2607832
+  },
+  "league_logos\\USA_MLS\\Inter Miami.png": {
+    "team": "Inter Miami",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.3451717
+  },
+  "league_logos\\USA_MLS\\St. Louis City.png": {
+    "team": "St. Louis City",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.3873103
+  },
+  "league_logos\\USA_MLS\\FC Cincinnati.png": {
+    "team": "FC Cincinnati",
+    "league": "USA_MLS",
+    "url": "https://media.api-sports.io/football/teams/2289.png",
+    "timestamp": 1755524218.431584
+  }
+}

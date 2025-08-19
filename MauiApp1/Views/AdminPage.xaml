@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiApp1.Views.AdminPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MauiApp1.ViewModels"
+             x:DataType="vm:AdminViewModel"
+             Title="Admin Panel"
+             BackgroundColor="White">
+
+    <Shell.TitleView>
+        <Grid ColumnDefinitions="*,Auto">
+            <Label Text="🔧 Admin Panel" 
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   TextColor="Black" 
+                   VerticalOptions="Center" />
+            <Button Grid.Column="1" 
+                    Text="Sign Out" 
+                    Command="{Binding SignOutCommand}"
+                    BackgroundColor="Transparent"
+                    TextColor="Red"
+                    FontSize="14" />
+        </Grid>
+    </Shell.TitleView>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            
+            <!-- Admin Welcome -->
+            <Frame BackgroundColor="White" BorderColor="Orange" CornerRadius="8">
+                <StackLayout Spacing="10">
+                    <Label Text="👑 Admin Panel" 
+                           TextColor="Orange" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           HorizontalOptions="Center" />
+                    <Label Text="Add New Match" 
+                           TextColor="Black" 
+                           FontSize="16" 
+                           HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Add Match Form -->
+            <Label Text="Match Details" 
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   TextColor="Black" />
+
+            <StackLayout Spacing="15">
+                
+                <!-- Date -->
+                <StackLayout>
+                    <Label Text="Date" 
+                           TextColor="Black" 
+                           FontSize="16" 
+                           FontAttributes="Bold" />
+                    <Entry Text="{Binding Date}"
+                           Placeholder="YYYY-MM-DD"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           PlaceholderColor="Gray" />
+                </StackLayout>
+
+                <!-- Hour -->
+                <StackLayout>
+                    <Label Text="Hour" 
+                           TextColor="Black" 
+                           FontSize="16" 
+                           FontAttributes="Bold" />
+                    <Entry Text="{Binding Hour}"
+                           Placeholder="HH:MM"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           PlaceholderColor="Gray" />
+                </StackLayout>
+
+                <!-- Team 1 -->
+                <StackLayout>
+                    <Label Text="Team 1" 
+                           TextColor="Black" 
+                           FontSize="16" 
+                           FontAttributes="Bold" />
+                    <Entry Text="{Binding Team1}"
+                           Placeholder="Enter Team 1 name"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           PlaceholderColor="Gray" />
+                </StackLayout>
+
+                <!-- Team 2 -->
+                <StackLayout>
+                    <Label Text="Team 2" 
+                           TextColor="Black" 
+                           FontSize="16" 
+                           FontAttributes="Bold" />
+                    <Entry Text="{Binding Team2}"
+                           Placeholder="Enter Team 2 name"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           PlaceholderColor="Gray" />
+                </StackLayout>
+
+                <!-- Submit Button -->
+                <Button Text="Add Match"
+                        Command="{Binding AddMatchCommand}"
+                        BackgroundColor="#007ACC"
+                        TextColor="White"
+                        CornerRadius="8"
+                        HeightRequest="50"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        Margin="0,20,0,0" />
+
+            </StackLayout>
+
+            <!-- Export Section -->
+            <Frame BackgroundColor="White" BorderColor="Green" CornerRadius="8" Margin="0,20,0,0">
+                <StackLayout Spacing="10">
+                    <Label Text="📊 Export Data" 
+                           TextColor="Green" 
+                           FontSize="20" 
+                           FontAttributes="Bold" 
+                           HorizontalOptions="Center" />
+                    <Label Text="Export winning bets and match results" 
+                           TextColor="Black" 
+                           FontSize="14" 
+                           HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Export Winning Bets Button -->
+            <Button Text="📈 Export Winning Bets"
+                    Command="{Binding ExportWinningBetsCommand}"
+                    BackgroundColor="#28A745"
+                    TextColor="White"
+                    CornerRadius="8"
+                    HeightRequest="50"
+                    FontSize="16"
+                    FontAttributes="Bold" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

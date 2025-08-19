@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiApp1.Views.SettingsPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:services="clr-namespace:MauiApp1.Services"
+             Title="Settings"
+             BackgroundColor="White">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="←" Clicked="OnBackClicked" />
+    </ContentPage.ToolbarItems>
+
+    <Shell.TitleView>
+        <Grid ColumnDefinitions="Auto,*,Auto" BackgroundColor="White">
+            <Button Grid.Column="0" 
+                    Text="☰" 
+                    FontSize="20"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    BorderColor="Transparent"
+                    Clicked="OnMenuClicked" />
+            <Image Grid.Column="1" 
+                   Source="logo.jpg"
+                   HeightRequest="40" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+        </Grid>
+    </Shell.TitleView>
+
+    <ScrollView BackgroundColor="White">
+        <VerticalStackLayout Padding="0" Spacing="0" BackgroundColor="White">
+
+                         <!-- Change password -->
+             <Grid Padding="20" RowDefinitions="Auto" ColumnDefinitions="*" BackgroundColor="White">
+                 <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="OnChangePasswordClicked"/>
+                 </Grid.GestureRecognizers>
+                 <Label Text="{Binding ChangePasswordText}" FontSize="24" FontAttributes="Bold" TextColor="#6B9B47" />
+             </Grid>
+            <BoxView HeightRequest="1" BackgroundColor="#B9D98D" />
+
+                         <!-- Change Language -->
+             <Grid Padding="20" RowDefinitions="Auto" ColumnDefinitions="*" BackgroundColor="White">
+                 <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="OnLanguageClicked"/>
+                 </Grid.GestureRecognizers>
+                 <Label Text="{Binding ChangeLanguageText}" FontSize="24" FontAttributes="Bold" TextColor="#6B9B47" />
+             </Grid>
+            <BoxView HeightRequest="1" BackgroundColor="#B9D98D" />
+
+                         <!-- Update Email -->
+             <Grid Padding="20" RowDefinitions="Auto" ColumnDefinitions="*" BackgroundColor="White">
+                 <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="OnUpdateEmailClicked"/>
+                 </Grid.GestureRecognizers>
+                 <Label Text="{Binding UpdateEmailText}" FontSize="24" FontAttributes="Bold" TextColor="#6B9B47" />
+             </Grid>
+            <BoxView HeightRequest="1" BackgroundColor="#B9D98D" />
+
+
+
+                                      <!-- Delete Account -->
+             <Grid Padding="20" RowDefinitions="Auto" ColumnDefinitions="*" BackgroundColor="White">
+                 <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="OnDeleteAccountClicked"/>
+                 </Grid.GestureRecognizers>
+                 <Label Text="{Binding DeleteAccountText}" FontSize="24" FontAttributes="Bold" TextColor="#6B9B47" />
+             </Grid>
+             <BoxView HeightRequest="1" BackgroundColor="#B9D98D" />
+
+             <!-- Logout -->
+             <Grid Padding="20" RowDefinitions="Auto" ColumnDefinitions="*" BackgroundColor="White">
+                 <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="OnLogoutClicked"/>
+                 </Grid.GestureRecognizers>
+                 <Label Text="{Binding LogOutText}" FontSize="24" FontAttributes="Bold" TextColor="#FF4444" />
+             </Grid>
+
+         </VerticalStackLayout>
+     </ScrollView>
+
+</ContentPage>

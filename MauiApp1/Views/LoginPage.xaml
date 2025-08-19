@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiApp1.Views.LoginPage"
+			 xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:vm="clr-namespace:MauiApp1.ViewModels"
+			 xmlns:services="clr-namespace:MauiApp1.Services"
+			 x:DataType="vm:LoginViewModel"
+			 Title=""
+			 BackgroundColor="White">
+
+	<ScrollView>
+		<StackLayout Padding="40" Spacing="20" VerticalOptions="Center">
+            
+			<!-- Logo -->
+			<Image Source="logo.jpg" 
+				   HeightRequest="120" 
+				   HorizontalOptions="Center" />
+            
+			<!-- Title -->
+			<Label Text="{Binding Source={x:Static services:LocalizationService.Instance}, Path=AppTitleText}" 
+				   FontSize="32" 
+				   FontAttributes="Bold" 
+				   TextColor="Black" 
+				   HorizontalOptions="Center" />
+            
+			<!-- Email Entry -->
+			<Frame BackgroundColor="White" BorderColor="Gray" CornerRadius="8">
+				<Entry x:Name="EmailEntry"
+					   Text="{Binding Email}"
+					   Placeholder="{Binding Source={x:Static services:LocalizationService.Instance}, Path=EmailText}"
+					   PlaceholderColor="Gray"
+					   TextColor="Black"
+					   Keyboard="Email"
+					   ReturnType="Next"
+					   Completed="OnEmailCompleted" />
+			</Frame>
+            
+			<!-- Password Entry -->
+			<Frame BackgroundColor="White" BorderColor="Gray" CornerRadius="8">
+				<Entry x:Name="PasswordEntry"
+					   Text="{Binding Password}"
+					   Placeholder="{Binding Source={x:Static services:LocalizationService.Instance}, Path=PasswordText}"
+					   PlaceholderColor="Gray"
+					   TextColor="Black"
+					   IsPassword="True"
+					   ReturnType="Go"
+					   Completed="OnPasswordCompleted" />
+			</Frame>
+
+			<!-- Remember Me -->
+			<StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="Center">
+				<CheckBox IsChecked="{Binding RememberMe}" Color="#6B9B47"/>
+				<Label Text="{Binding Source={x:Static services:LocalizationService.Instance}, Path=RememberMeText}" VerticalOptions="Center" TextColor="Black"/>
+			</StackLayout>
+            
+			<!-- Sign In Button -->
+			<Button Text="{Binding Source={x:Static services:LocalizationService.Instance}, Path=SignInText}"
+					Command="{Binding SignInCommand}"
+					BackgroundColor="#007ACC"
+					TextColor="White"
+					CornerRadius="8"
+					HeightRequest="50"
+					IsEnabled="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}" />
+            
+			<!-- Create Account Button -->
+			<Button Text="{Binding Source={x:Static services:LocalizationService.Instance}, Path=CreateAccountText}"
+					Command="{Binding CreateAccountCommand}"
+					BackgroundColor="Transparent"
+					TextColor="#007ACC"
+					BorderColor="#007ACC"
+					BorderWidth="1"
+					CornerRadius="8"
+					HeightRequest="50"
+					IsEnabled="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}" />
+            
+			<!-- Loading Indicator -->
+			<ActivityIndicator IsVisible="{Binding IsLoading}" 
+							 IsRunning="{Binding IsLoading}"
+							 Color="#007ACC" />
+            
+		</StackLayout>
+	</ScrollView>
+    
+</ContentPage>
+

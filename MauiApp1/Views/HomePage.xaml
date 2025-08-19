@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiApp1.Views.HomePage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MauiApp1.ViewModels"
+             x:DataType="vm:HomeViewModel"
+             Title="VAR6"
+             BackgroundColor="White">
+
+    <Shell.TitleView>
+        <Grid ColumnDefinitions="Auto,*,Auto" BackgroundColor="White">
+            <Button Grid.Column="0" 
+                    Text="☰" 
+                    FontSize="20"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    BorderColor="Transparent"
+                    Clicked="OnMenuClicked" />
+            <Image Grid.Column="1" 
+                   Source="1.jpg"
+                   HeightRequest="48" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+        </Grid>
+    </Shell.TitleView>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            
+            <!-- Intro removed per request -->
+
+            <!-- Today's Matches -->
+            <Label Text="Today's matches" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   TextColor="Black" 
+                   Margin="0,20,0,0" />
+
+            <CollectionView ItemsSource="{Binding TodaysMatches}" 
+                          BackgroundColor="Transparent">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="vm:MatchViewModel">
+                        <Frame BackgroundColor="White" 
+                               BorderColor="#E0E0E0" 
+                               CornerRadius="12" 
+                               Margin="0,5"
+                               Padding="15"
+                               HasShadow="True">
+                            
+                            <StackLayout Spacing="15">
+                                
+                                <Grid ColumnDefinitions="*,Auto,*" RowDefinitions="Auto,Auto">
+                                    
+                                    <!-- Home Team -->
+                                    <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                                        <Image Source="{Binding HomeLogoPath}" WidthRequest="60" HeightRequest="60" />
+                                        <Label Text="{Binding Match.HomeTeamCode}" 
+                                               TextColor="Black" 
+                                               FontSize="18" 
+                                               FontAttributes="Bold" 
+                                               HorizontalOptions="Center" />
+                                        <Label Text="{Binding Match.HomeTeam}" 
+                                               TextColor="Gray" 
+                                               FontSize="12" 
+                                               HorizontalOptions="Center" />
+                                    </StackLayout>
+                                    
+                                    <!-- Time -->
+                                    <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
+                                        <Label Text="{Binding MatchTime}" 
+                                               TextColor="Gray" 
+                                               FontSize="14" 
+                                               HorizontalOptions="Center" />
+                                    </StackLayout>
+                                    
+                                    <!-- Away Team -->
+                                    <StackLayout Grid.Column="2" HorizontalOptions="Center">
+                                        <Image Source="{Binding AwayLogoPath}" WidthRequest="60" HeightRequest="60" />
+                                        <Label Text="{Binding Match.AwayTeamCode}" 
+                                               TextColor="Black" 
+                                               FontSize="18" 
+                                               FontAttributes="Bold" 
+                                               HorizontalOptions="Center" />
+                                        <Label Text="{Binding Match.AwayTeam}" 
+                                               TextColor="Gray" 
+                                               FontSize="12" 
+                                               HorizontalOptions="Center" />
+                                    </StackLayout>
+                                </Grid>
+                                
+                                <!-- Prediction Input -->
+                                <Grid ColumnDefinitions="*,Auto,*" ColumnSpacing="20">
+                                    
+                                    <!-- Home Team Score Section -->
+                                    <StackLayout Grid.Column="0" HorizontalOptions="Center" Spacing="10">
+                                        <Label Text="{Binding HomePrediction}" 
+                                               TextColor="#6B9B47" 
+                                               FontSize="32" 
+                                               FontAttributes="Bold" 
+                                               HorizontalOptions="Center" />
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                                            <Button Text="-" 
+                                                    Command="{Binding DecreaseHomeScoreCommand}"
+                                                    BackgroundColor="#FF6B6B"
+                                                    TextColor="White"
+                                                    FontSize="20"
+                                                    FontAttributes="Bold"
+                                                    WidthRequest="40"
+                                                    HeightRequest="40"
+                                                    CornerRadius="20"
+                                                    IsEnabled="{Binding IsUpcoming}" />
+                                            <Button Text="+" 
+                                                    Command="{Binding IncreaseHomeScoreCommand}"
+                                                    BackgroundColor="#4ECDC4"
+                                                    TextColor="White"
+                                                    FontSize="20"
+                                                    FontAttributes="Bold"
+                                                    WidthRequest="40"
+                                                    HeightRequest="40"
+                                                    CornerRadius="20"
+                                                    IsEnabled="{Binding IsUpcoming}" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                    
+                                    <Label Grid.Column="1" 
+                                           Text="VS" 
+                                           TextColor="Black" 
+                                           FontSize="18" 
+                                           FontAttributes="Bold" 
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center" />
+                                    
+                                    <!-- Away Team Score Section -->
+                                    <StackLayout Grid.Column="2" HorizontalOptions="Center" Spacing="10">
+                                        <Label Text="{Binding AwayPrediction}" 
+                                               TextColor="#6B9B47" 
+                                               FontSize="32" 
+                                               FontAttributes="Bold" 
+                                               HorizontalOptions="Center" />
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                                            <Button Text="-" 
+                                                    Command="{Binding DecreaseAwayScoreCommand}"
+                                                    BackgroundColor="#FF6B6B"
+                                                    TextColor="White"
+                                                    FontSize="20"
+                                                    FontAttributes="Bold"
+                                                    WidthRequest="40"
+                                                    HeightRequest="40"
+                                                    CornerRadius="20"
+                                                    IsEnabled="{Binding IsUpcoming}" />
+                                            <Button Text="+" 
+                                                    Command="{Binding IncreaseAwayScoreCommand}"
+                                                    BackgroundColor="#4ECDC4"
+                                                    TextColor="White"
+                                                    FontSize="20"
+                                                    FontAttributes="Bold"
+                                                    WidthRequest="40"
+                                                    HeightRequest="40"
+                                                    CornerRadius="20"
+                                                    IsEnabled="{Binding IsUpcoming}" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Grid>
+                                
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Submit Button -->
+            <Button Text="Submit"
+                    Command="{Binding SubmitPredictionsCommand}"
+                    BackgroundColor="#007ACC"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                    IsEnabled="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}" />
+
+            <ActivityIndicator IsVisible="{Binding IsLoading}" 
+                             IsRunning="{Binding IsLoading}"
+                             Color="#007ACC"
+                             HeightRequest="50" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

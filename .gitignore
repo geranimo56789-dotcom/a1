@@ -1,0 +1,38 @@
+# MAUI / .NET / Visual Studio
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build outputs
+**/publish/
+
+# Sensitive files (never commit)
+*.jks
+*.keystore
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.key
+*.pem
+appsettings.*.json
+secrets.json
+**/firebase*.json
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Local test files
+/tmp_rovodev_*

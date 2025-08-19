@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiApp1.Views.GameRulesPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Game Rules"
+             BackgroundColor="White">
+
+    <Shell.TitleView>
+        <Grid ColumnDefinitions="Auto,*" BackgroundColor="White">
+            <Button Grid.Column="0" 
+                    Text="☰" 
+                    FontSize="20"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    BorderColor="Transparent"
+                    Clicked="OnMenuClicked" />
+        </Grid>
+    </Shell.TitleView>
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            
+            
+
+            <!-- Title -->
+            <Label Text="Official Game Rules" 
+                   FontSize="28" 
+                   FontAttributes="Bold" 
+                   TextColor="Black" 
+                   HorizontalOptions="Start" />
+
+            <!-- Rules -->
+            <Label Text="- On your homepage you'll be presented with the games that are upcoming so you can place your match game predictions" 
+                   FontSize="16" 
+                   TextColor="Black" 
+                   LineBreakMode="WordWrap" />
+
+            <Label Text="- If your prediction is correct at the end of game play you can win a special prize" 
+                   FontSize="16" 
+                   TextColor="Black" 
+                   LineBreakMode="WordWrap" />
+
+            <Label Text="- If your prediction is slightly wrong, but you predicted the winning team in that match would win, you stand the chance to win a runners up reward" 
+                   FontSize="16" 
+                   TextColor="Black" 
+                   LineBreakMode="WordWrap" />
+
+            <Label Text="- Winners are announced every Friday" 
+                   FontSize="16" 
+                   TextColor="Black" 
+                   LineBreakMode="WordWrap" />
+
+            <Label Text="- If your Game prediction is accurate you will win 1 of 2 prizes:" 
+                   FontSize="16" 
+                   TextColor="Black" 
+                   LineBreakMode="WordWrap"
+                   Margin="0,10,0,0" />
+
+            <Label Text="   1. £100" 
+                   FontSize="16" 
+                   TextColor="Black" 
+                   Margin="20,0,0,0" />
+
+            <Label Text="   2. A Brand new football Jersey" 
+                   FontSize="16" 
+                   TextColor="Black" 
+                   Margin="20,0,0,0" />
+
+            <Label Text="If you want more info on how to receive your prize winnings please email: info@var6.net" 
+                   FontSize="16" 
+                   TextColor="Black" 
+                   LineBreakMode="WordWrap"
+                   Margin="0,15,0,0" />
+
+            <Label Text="*The Var 6 mobile app wishes to make clear that Apple is in no way shape or form involved with the contest or sweepstakes played on this mobile application. Var 6 acts as an independent entity and is not apart of Apples products, only available on its App Store.*" 
+                   FontSize="12" 
+                   TextColor="Gray" 
+                   FontAttributes="Italic"
+                   LineBreakMode="WordWrap"
+                   Margin="0,20,0,0" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

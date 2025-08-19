@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell x:Class="MauiApp1.AppShell"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:MauiApp1.Views"
+       Shell.FlyoutBehavior="Flyout"
+       Shell.NavBarIsVisible="True"
+       Shell.FlyoutBackgroundColor="purple"
+       Shell.BackgroundColor="Blue"
+       Shell.ForegroundColor="red"
+       Shell.TitleColor="Black"
+       Shell.UnselectedColor="green"
+       Shell.DisabledColor="orange">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style TargetType="FlyoutItem">
+                <Setter Property="Shell.BackgroundColor" Value="red" />
+                <Setter Property="Shell.ForegroundColor" Value="green" />
+                <Setter Property="Shell.TitleColor" Value="blue" />
+                <Setter Property="Shell.DisabledColor" Value="purple" />
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <!-- Login (Hidden from menu) -->
+    <ShellContent x:Name="LoginShell"
+                  Route="login"
+                  ContentTemplate="{DataTemplate local:LoginPage}"
+                  Shell.NavBarIsVisible="False"
+                  Shell.FlyoutItemIsVisible="False" />
+
+    <!-- Home -->
+    <FlyoutItem Title="Home" Route="home">
+        <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
+    </FlyoutItem>
+
+    <!-- Check Predictions -->
+    <FlyoutItem Title="Check Predictions" Route="predictions">
+        <ShellContent ContentTemplate="{DataTemplate local:PredictionsPage}" />
+    </FlyoutItem>
+
+    <!-- Settings -->
+    <FlyoutItem Title="Settings" Route="settings">
+        <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
+    </FlyoutItem>
+
+    <!-- Game Rules -->
+    <FlyoutItem Title="Game Rules" Route="gamerules">
+        <ShellContent ContentTemplate="{DataTemplate local:GameRulesPage}" />
+    </FlyoutItem>
+
+                    <!-- Admin (Hidden for regular users) -->
+                <FlyoutItem x:Name="AdminMenuItem"
+                            Title="Admin Panel"
+                            Route="admin"
+                            IsVisible="False"
+                            Shell.FlyoutItemIsVisible="False">
+                    <ShellContent ContentTemplate="{DataTemplate local:AdminPage}" />
+                </FlyoutItem>
+    <!-- Logout -->
+    <FlyoutItem Title="Logout" Route="logout">
+        <ShellContent ContentTemplate="{DataTemplate local:LogoutPage}" />
+    </FlyoutItem>
+
+</Shell>

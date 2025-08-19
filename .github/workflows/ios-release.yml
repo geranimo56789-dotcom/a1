@@ -1,0 +1,181 @@
+name: iOS Release (MAUI)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "CFBundleShortVersionString (e.g. 1.0.3)"
+        required: false
+        default: ""
+      buildNumber:
+        description: "CFBundleVersion (integer)"
+        required: false
+        default: ""
+      uploadToAppStore:
+        description: "Upload .ipa to App Store Connect using Transporter"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  build-ios:
+    runs-on: macos-14
+    permissions:
+      contents: read
+    env:
+      SOLUTION_PATH: MauiApp1.sln
+      PROJECT_PATH: MauiApp1/MauiApp1.csproj
+      BUNDLE_ID: com.var6.bettingapp
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 8 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install MAUI workloads
+        run: |
+          dotnet workload install maui
+
+      - name: Cache NuGet
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.sln', '**/*.csproj', '**/Directory.Packages.props') }}
+          restore-keys: |
+            ${{ runner.os }}-nuget-
+
+      - name: Restore
+        run: dotnet restore ${{ env.SOLUTION_PATH }}
+
+      # Provisioning profile from App Store Connect (official Apple action)
+      - name: Create and install provisioning profile (App Store)
+        id: provisioning
+        uses: apple-actions/app-store-connect-provisioning-profile@v2
+        with:
+          api-key-id: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
+          api-issuer-id: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+          api-private-key: ${{ secrets.APP_STORE_CONNECT_PRIVATE_KEY }}
+          # App Store distribution profile for the app's bundle identifier
+          bundle-id: ${{ env.BUNDLE_ID }}
+          profile-type: IOS_APP_STORE
+          certificate-type: IOS_DISTRIBUTION
+
+      # Import your iOS Distribution certificate (.p12) into the keychain
+      - name: Import signing certificate
+        uses: apple-actions/import-codesign-certs@v2
+        with:
+          p12-file-base64: ${{ secrets.IOS_DISTRIBUTION_CERT_BASE64 }}
+          p12-password: ${{ secrets.IOS_DISTRIBUTION_CERT_PASSWORD }}
+
+      - name: Build & Archive (Release, device)
+        env:
+          TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          PROFILE_NAME: ${{ steps.provisioning.outputs.profile-name }}
+          # Optional: provide the full certificate common name, e.g. "Apple Distribution: Your Company (TEAMID)"
+          CODESIGN_KEY: ${{ secrets.APPLE_DIST_CERT_NAME }}
+        run: |
+          set -eu
+          EXTRA_PROPS=""
+          if [ -n "${CODESIGN_KEY:-}" ]; then
+            EXTRA_PROPS="$EXTRA_PROPS -p:CodesignKey=\"$CODESIGN_KEY\""
+          fi
+          if [ -n "${{ inputs.version }}" ]; then
+            EXTRA_PROPS="$EXTRA_PROPS -p:ApplicationDisplayVersion=${{ inputs.version }}"
+          fi
+          if [ -n "${{ inputs.buildNumber }}" ]; then
+            EXTRA_PROPS="$EXTRA_PROPS -p:ApplicationVersion=${{ inputs.buildNumber }}"
+          fi
+
+          dotnet build "${PROJECT_PATH}" \
+            -f net8.0-ios \
+            -c Release \
+            -p:RuntimeIdentifier=ios-arm64 \
+            -p:ArchiveOnBuild=true \
+            -p:CodesignTeamId="$TEAM_ID" \
+            -p:CodesignProvision="$PROFILE_NAME" \
+            $EXTRA_PROPS
+
+      - name: Locate .xcarchive
+        id: find_archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARCH_DIR=$(ls -td ~/Library/Developer/Xcode/Archives/* | head -n 1)
+          ARCH_PATH=$(find "$ARCH_DIR" -maxdepth 1 -name "*.xcarchive" | head -n 1)
+          echo "archive-path=$ARCH_PATH" >> $GITHUB_OUTPUT
+
+      - name: Prepare export options
+        id: export_opts
+        shell: bash
+        env:
+          TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          PROFILE_NAME: ${{ steps.provisioning.outputs.profile-name }}
+        run: |
+          set -euo pipefail
+          cat > export-options.plist <<'PLIST'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+            <dict>
+              <key>method</key>
+              <string>app-store</string>
+              <key>signingStyle</key>
+              <string>manual</string>
+              <key>teamID</key>
+              <string>${TEAM_ID}</string>
+              <key>provisioningProfiles</key>
+              <dict>
+                <key>${BUNDLE_ID}</key>
+                <string>${PROFILE_NAME}</string>
+              </dict>
+              <key>uploadSymbols</key>
+              <true/>
+              <key>generateAppStoreInformation</key>
+              <false/>
+            </dict>
+          </plist>
+          PLIST
+
+      - name: Export .ipa from archive
+        id: export_ipa
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXPORT_DIR="$RUNNER_TEMP/export"
+          mkdir -p "$EXPORT_DIR"
+          xcodebuild -exportArchive \
+            -archivePath "${{ steps.find_archive.outputs.archive-path }}" \
+            -exportPath "$EXPORT_DIR" \
+            -exportOptionsPlist export-options.plist \
+            -allowProvisioningUpdates
+
+          IPA_PATH=$(find "$EXPORT_DIR" -maxdepth 1 -name "*.ipa" | head -n 1)
+          echo "ipa-path=$IPA_PATH" >> $GITHUB_OUTPUT
+
+      - name: Upload artifacts (.xcarchive)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-xcarchive
+          path: ${{ steps.find_archive.outputs.archive-path }}
+
+      - name: Upload artifacts (.ipa)
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-ipa
+          path: ${{ steps.export_ipa.outputs.ipa-path }}
+
+      - name: Upload to App Store Connect (Transporter)
+        if: ${{ success() && inputs.uploadToAppStore == true }}
+        env:
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APP_SPECIFIC_PASSWORD: ${{ secrets.APP_SPECIFIC_PASSWORD }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          IPA_PATH='${{ steps.export_ipa.outputs.ipa-path }}'
+          xcrun iTMSTransporter -m upload -assetFile "$IPA_PATH" -u "$APPLE_ID" -p "$APP_SPECIFIC_PASSWORD" -v informational
