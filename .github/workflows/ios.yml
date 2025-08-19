@@ -1,9 +1,4 @@
 name: iOS (MAUI) Build
- # CI: workflow adjusted to fix YAML and trigge      - name: Build iOS Simulator App
-        run: |
-          dotnet build "$PROJECT" -c "$CONFIG" -f net8.0-ios \
-            /p:RuntimeIdentifier=iossimulator-arm64 \
-            /p:MtouchLink=Noned
 
 on:
   push:
