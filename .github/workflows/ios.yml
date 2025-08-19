@@ -30,14 +30,14 @@ jobs:
   build-ios:
     name: Build iOS
     runs-on: macos-14
-  timeout-minutes: 60
+    timeout-minutes: 60
     env:
       DOTNET_NOLOGO: true
-  DOTNET_CLI_TELEMETRY_OPTOUT: "1"
-  CONFIG: "${{ github.event.inputs.configuration || 'Release' }}"
-  PROJECT: "${{ github.event.inputs.project || 'MauiApp1/MauiApp1.csproj' }}"
-  BUILD_SIGNED_IPA: "${{ github.event.inputs.build_signed_ipa || 'false' }}"
-  PACKAGE_APP: "${{ github.event.inputs.package_app || 'true' }}"
+      DOTNET_CLI_TELEMETRY_OPTOUT: "1"
+      CONFIG: "${{ github.event.inputs.configuration || 'Release' }}"
+      PROJECT: "${{ github.event.inputs.project || 'MauiApp1/MauiApp1.csproj' }}"
+      BUILD_SIGNED_IPA: "${{ github.event.inputs.build_signed_ipa || 'false' }}"
+      PACKAGE_APP: "${{ github.event.inputs.package_app || 'true' }}"
 
     steps:
       - name: Checkout
