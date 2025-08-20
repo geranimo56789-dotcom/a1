@@ -1,0 +1,148 @@
+diff --git a//dev/null b/.github/workflows/ios-store.yml
+index 0000000000000000000000000000000000000000..4d0f15168fc77833b159d2bd02a042af39584cfc 100644
+--- a//dev/null
++++ b/.github/workflows/ios-store.yml
+@@ -0,0 +1,143 @@
++name: iOS App Store Build
++
++on:
++  push:
++    branches: [ master ]
++    paths:
++      - 'MauiApp1/**'
++      - '.github/workflows/ios-store.yml'
++  workflow_dispatch:
++    inputs:
++      configuration:
++        description: Build configuration
++        required: false
++        default: Release
++      project:
++        description: Relative path to the MAUI project (.csproj)
++        required: false
++        default: MauiApp1/MauiApp1.csproj
++      upload_to_app_store:
++        description: 'Upload .ipa to App Store Connect using Transporter'
++        required: false
++        default: 'false'
++
++jobs:
++  build-ios:
++    name: Build iOS for App Store
++    runs-on: macos-15
++    timeout-minutes: 60
++    env:
++      DOTNET_NOLOGO: true
++      DOTNET_CLI_TELEMETRY_OPTOUT: "1"
++      CONFIG: "${{ github.event.inputs.configuration || 'Release' }}"
++      PROJECT: "${{ github.event.inputs.project || 'MauiApp1/MauiApp1.csproj' }}"
++      UPLOAD_TO_APP_STORE: "${{ github.event.inputs.upload_to_app_store || 'false' }}"
++      BUNDLE_ID: com.var6.bettingapp
++    steps:
++      - name: Checkout
++        uses: actions/checkout@v4
++
++      - name: Setup .NET 8.x
++        uses: actions/setup-dotnet@v4
++        with:
++          dotnet-version: '8.0.x'
++
++      - name: Install MAUI workload
++        run: dotnet workload install maui
++
++      - name: Cache NuGet
++        uses: actions/cache@v4
++        with:
++          path: ~/.nuget/packages
++          key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj') }}
++          restore-keys: |
++            nuget-${{ runner.os }}-
++
++      - name: Restore
++        run: dotnet restore "$PROJECT"
++
++      - name: Create provisioning profile
++        id: provisioning
++        uses: apple-actions/app-store-connect-provisioning-profile@v2
++        with:
++          api-key-id: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
++          api-issuer-id: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
++          api-private-key: ${{ secrets.APP_STORE_CONNECT_PRIVATE_KEY }}
++          bundle-id: ${{ env.BUNDLE_ID }}
++          profile-type: IOS_APP_STORE
++          certificate-type: IOS_DISTRIBUTION
++
++      - name: Import signing certificate
++        uses: apple-actions/import-codesign-certs@v2
++        with:
++          p12-file-base64: ${{ secrets.IOS_DISTRIBUTION_CERT_BASE64 }}
++          p12-password: ${{ secrets.IOS_DISTRIBUTION_CERT_PASSWORD }}
++
++      - name: Build & Archive
++        env:
++          TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
++          PROFILE_NAME: ${{ steps.provisioning.outputs.profile-name }}
++        run: |
++          dotnet build "$PROJECT" \
++            -f net8.0-ios \
++            -c "$CONFIG" \
++            -p:RuntimeIdentifier=ios-arm64 \
++            -p:ArchiveOnBuild=true \
++            -p:CodesignTeamId="$TEAM_ID" \
++            -p:CodesignProvision="$PROFILE_NAME"
++
++      - name: Locate .xcarchive
++        id: find_archive
++        run: |
++          ARCH_DIR=$(ls -td ~/Library/Developer/Xcode/Archives/* | head -n 1)
++          ARCH_PATH=$(find "$ARCH_DIR" -maxdepth 1 -name '*.xcarchive' | head -n 1)
++          echo "archive-path=$ARCH_PATH" >> $GITHUB_OUTPUT
++
++      - name: Export .ipa
++        id: export_ipa
++        env:
++          TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
++          PROFILE_NAME: ${{ steps.provisioning.outputs.profile-name }}
++        run: |
++          cat > export-options.plist <<'PLIST'
++          <?xml version="1.0" encoding="UTF-8"?>
++          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++          <plist version="1.0">
++            <dict>
++              <key>method</key>
++              <string>app-store</string>
++              <key>signingStyle</key>
++              <string>manual</string>
++              <key>teamID</key>
++              <string>${TEAM_ID}</string>
++              <key>provisioningProfiles</key>
++              <dict>
++                <key>${BUNDLE_ID}</key>
++                <string>${PROFILE_NAME}</string>
++              </dict>
++            </dict>
++          </plist>
++          PLIST
++          EXPORT_DIR="$RUNNER_TEMP/export"
++          mkdir -p "$EXPORT_DIR"
++          xcodebuild -exportArchive \
++            -archivePath "${{ steps.find_archive.outputs.archive-path }}" \
++            -exportPath "$EXPORT_DIR" \
++            -exportOptionsPlist export-options.plist \
++            -allowProvisioningUpdates
++          IPA_PATH=$(find "$EXPORT_DIR" -maxdepth 1 -name '*.ipa' | head -n 1)
++          echo "ipa-path=$IPA_PATH" >> $GITHUB_OUTPUT
++
++      - name: Upload IPA artifact
++        uses: actions/upload-artifact@v4
++        with:
++          name: ios-ipa
++          path: ${{ steps.export_ipa.outputs.ipa-path }}
++
++      - name: Upload to App Store Connect
++        if: ${{ env.UPLOAD_TO_APP_STORE == 'true' }}
++        env:
++          APPLE_ID: ${{ secrets.APPLE_ID }}
++          APP_SPECIFIC_PASSWORD: ${{ secrets.APP_SPECIFIC_PASSWORD }}
++        run: |
++          xcrun iTMSTransporter -m upload -assetFile "${{ steps.export_ipa.outputs.ipa-path }}" -u "$APPLE_ID" -p "$APP_SPECIFIC_PASSWORD" -v informational
