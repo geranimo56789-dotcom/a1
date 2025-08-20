@@ -17,13 +17,19 @@
 				   HorizontalOptions="Center" />
             
 			<!-- Title -->
-			<Label Text="{Binding Source={x:Static services:LocalizationService.Instance}, Path=AppTitleText}" 
-				   FontSize="32" 
-				   FontAttributes="Bold" 
-				   TextColor="Black" 
-				   HorizontalOptions="Center" />
-            
-			<!-- Email Entry -->
+                        <Label Text="{Binding Source={x:Static services:LocalizationService.Instance}, Path=AppTitleText}"
+                                   FontSize="32"
+                                   FontAttributes="Bold"
+                                   TextColor="Black"
+                                   HorizontalOptions="Center" />
+
+                        <!-- Version Label -->
+                        <Label Text="v1"
+                                   FontSize="16"
+                                   TextColor="Black"
+                                   HorizontalOptions="Center" />
+
+                        <!-- Email Entry -->
 			<Frame BackgroundColor="White" BorderColor="Gray" CornerRadius="8">
 				<Entry x:Name="EmailEntry"
 					   Text="{Binding Email}"
